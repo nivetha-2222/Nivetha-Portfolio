@@ -1,5 +1,6 @@
 import React from 'react';
 import profileImg from "../assets/Nivetha.png"
+import resume from "../assets/Nivetha.pdf"
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
             <button className="btn contact-btn" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
               Get in touch
             </button>
-            <a href="/resume.pdf" className="btn resume-btn" target="_blank" rel="noopener noreferrer">
+            <a href={resume} className="btn resume-btn" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </div>
@@ -38,6 +39,7 @@ const Hero = () => {
           align-items: center;
           padding-top: 80px;
         }
+        
 
         .hero-container {
           display: flex;

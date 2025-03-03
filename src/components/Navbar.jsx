@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import resume from '../assets/Nivetha.pdf'
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('hero');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -63,7 +63,7 @@ const Navbar = () => {
             <a href="#contact" onClick={() => handleNavClick('contact')}>Contact</a>
           </li>
           <li>
-            <a href="/resume.pdf" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href={resume} className="resume1-btn" target="_blank" rel="noopener noreferrer">Resume</a>
           </li>
         </ul>
       </div>
@@ -115,7 +115,7 @@ const Navbar = () => {
           color: #ff6347;
         }
 
-        .resume-btn {
+        .resume1-btn {
           display: inline-block;
           padding: 8px 24px;
           background-color: transparent;
