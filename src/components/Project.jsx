@@ -3,6 +3,7 @@ import restaurant from "../assets/restaurant.png";
 import financial from "../assets/mobile.png";
 import HealthCare from "../assets/Healthcare.png";
 import counter from "../assets/counter.png";
+import analytical from '../assets/analytical.png';
 
 const ProjectsSection = () => {
   const [showAll, setShowAll] = useState(false);
@@ -38,9 +39,10 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
-      title: "Quinvest Landing Page",
-      image: "https://placehold.co/400x320/00cc66/ffffff",
+      title: "Analytical Dashboard",
+      image: analytical,
       bgColor: "bg-green-500/80",
+      link:"https://prismatic-dusk-7cb9d1.netlify.app/",
     },
   ];
 
