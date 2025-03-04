@@ -154,6 +154,12 @@ const Navbar = () => {
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
           }
+          .navbar-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 20px;
+        }
 
           .nav-links.mobile-open {
             transform: translateY(0);

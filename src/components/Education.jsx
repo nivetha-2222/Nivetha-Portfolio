@@ -22,7 +22,7 @@ const Education = () => {
 
 
   return (
-    <section id="education" className="education-section">
+    <section id="education" className="education-section exp-padd">
     <div className="container">
       <h2 className="section-title">Education</h2>
       <div className="timeline">

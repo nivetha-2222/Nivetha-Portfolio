@@ -50,7 +50,7 @@ const ProjectsSection = () => {
   const displayedProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
-    <section id="projects" className="experience-section">
+    <section id="projects" className="experience-section project-section">
       <div className="container">
         <h2 className="section-title">Projects</h2>
       </div>

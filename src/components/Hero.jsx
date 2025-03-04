@@ -4,7 +4,7 @@ import resume from "../assets/Nivetha.pdf"
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero-section">
+    <section id="hero" className="hero-section mobile-section">
       <div className="container hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
@@ -119,6 +119,10 @@ const Hero = () => {
             width: 250px;
             height: 250px;
           }
+         .mobile-section{
+         padding-bottom:10px ;
+          }
+          
         }
       `}</style>
     </section>

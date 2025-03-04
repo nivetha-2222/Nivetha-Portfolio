@@ -13,7 +13,7 @@ const Experience = () => {
     {
       id: 2,
       position: 'React Native Developer',
-      company: 'Coconids IT Solutions and IT Technologies',
+      company: 'CocoNids IT Solutions and IT Technologies',
       type: 'Full Time',
       period: 'Feb 2024 - Present',
       description: 'Focused on mobile app development using React Native. Implemented new features, improved app performance, and collaborated with cross-functional teams to enhance user engagement.'
@@ -21,7 +21,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="experience-section">
+    <section id="experience" className="experience-section exp-padd">
       <div className="container">
         <h2 className="section-title">Experience</h2>
         <div className="timeline">

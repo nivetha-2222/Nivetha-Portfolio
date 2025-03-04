@@ -244,3 +244,56 @@ section {
 .view-more-button:hover {
   background-color: #ddd;
 }
+
+@media (max-width: 768px) {
+  .project-section{
+    padding-top:0px;
+
+  }
+  
+}
+@media (max-width: 768px) {
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-item {
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .timeline-item:before {
+    display :none;
+  }
+
+  .timeline-item:after {
+    display :none;
+  }
+
+  .job-title {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-logo {
+  display:none;
+  }
+
+  .job-type {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .job-description {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .exp-padd{
+    padding-top:0px;
+  }
+}
