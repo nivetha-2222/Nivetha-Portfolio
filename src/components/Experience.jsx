@@ -4,18 +4,18 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      position: 'Software Developer',
+      position: 'Software Trainee',
       company: 'Velozion Technologies Pvt Ltd',
       type: 'Full Time',
-      period: 'Sep 2023 - Nov 2024',
+      period: 'Sep 2023 - Dec 2024',
       description: 'Developed responsive web and mobile applications using React.js and React Native. Built reusable components, integrated APIs, and optimized UI/UX for a seamless user experience.'
     },
     {
       id: 2,
-      position: 'React Native Developer',
-      company: 'CocoNids IT Solutions and IT Technologies',
+      position: 'Software Developer',
+      company: 'Quess Corp Ltd',
       type: 'Full Time',
-      period: 'Feb 2024 - Present',
+      period: 'Mar 2025 - Present',
       description: 'Focused on mobile app development using React Native. Implemented new features, improved app performance, and collaborated with cross-functional teams to enhance user engagement.'
     }
   ];
